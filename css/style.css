@@ -1,0 +1,47 @@
+/* line 1, ../sass/style.scss */
+html, body {
+  margin: 0;
+}
+
+/* line 5, ../sass/style.scss */
+table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #4865bb;
+  border-collapse: collapse;
+}
+/* line 13, ../sass/style.scss */
+table tr {
+  background-color: #e4e4e4;
+}
+/* line 17, ../sass/style.scss */
+table tr th, table tr td {
+  min-width: 30px;
+  padding: 2px 10px;
+  text-align: center;
+  border: 1px solid #968aff;
+}
+/* line 24, ../sass/style.scss */
+table tr .win {
+  color: #ce3939;
+}
+/* line 28, ../sass/style.scss */
+table tr th {
+  border: none;
+}
+/* line 32, ../sass/style.scss */
+table tr .empty {
+  background-color: #4865bb;
+  border: none;
+}
+/* line 38, ../sass/style.scss */
+table .header-row {
+  background-color: #4865bb;
+  color: #fff;
+}
+/* line 44, ../sass/style.scss */
+table .additional-row td:not(.empty) {
+  border-top: 2px dotted #4865bb;
+}
